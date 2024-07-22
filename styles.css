@@ -47,5 +47,22 @@ html {
 }
 
 .equals {
-    height: 250px;
+    height: 75%;
+    background: linear-gradient(0deg, rgba(88,239,236,1) 0%, rgba(124,202,213,1) 21%, rgba(160,166,190,1) 45%, rgba(180,146,177,1) 74%, rgba(232,92,144,1) 100%);
+    box-shadow: 0 5px 0 0 #4EB6B8;
+}
+
+.math {
+    background: #E85C90;
+    box-shadow: 0 5px 0 0 #79304B;
+}
+
+.num {
+    background: #A4A2BB;
+    box-shadow: 0 5px 0 0 #595866;
+}
+
+.misc {
+    background: #64E2E3;
+    box-shadow: 0 5px 0 0 #4EB6B8;
 }
