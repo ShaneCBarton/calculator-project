@@ -1,5 +1,8 @@
 html {
     font-size: 10px;
+}
+
+body {
     background: url("./images/background.gif");
     background-size: 100vw 125vh;
 }

@@ -30,8 +30,25 @@ function divide() {
     return sum;
 }
 
-console.log(add(2, 4));
-console.log(subtract(4, 2));
-console.log(multiply(2, 4));
-console.log(divide(4, 2));
-console.log(add(1));
+let firstDigit = 0;
+let secondDigit = 0;
+let operator = "";
+
+function operate(num, operator, numTwo) {
+    switch (operator) {
+        case "add":
+            add(num, numTwo);
+            break;
+        case "subtract":
+            subtract(num, numTwo);
+            break;
+        case "multiply":
+            multiply(num, numTwo);
+            break;
+        case "divide":
+            divide(num, numTwo);
+            break;
+        default :
+            break;
+    }
+}
