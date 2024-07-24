@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: "Button";
+    src: url("fonts/Starborn.ttf");
+}
+
 html {
     font-size: 10px;
 }
@@ -21,6 +27,8 @@ body {
 }
 
 button {
+    font-family: "Button";
+    color: #EBF4A8;
     border-radius: 50px;
     border: 2px solid black;
     height: 7rem;
@@ -30,15 +38,13 @@ button {
     justify-content: center;
     align-items: center;
     font-size: 3rem;
-    font-weight: bolder;
-    text-shadow: #292929 0 -1px 3px;
-    opacity: .80;
+    text-shadow: #292929 0 -2px 2px;
+    opacity: .60;
     cursor: pointer;
 }
 
 button:hover {
     opacity: 1;
-    color: #343434;
 }
 
 button:active {
@@ -47,10 +53,12 @@ button:active {
 }
 
 p {
+    font-family: "Button";
+    color: #292929;
     margin: 0;
     padding: 0 1rem .5rem 0;
     opacity: .75;
-    font-size: 8rem;
+    font-size: 7rem;
 }
 
 .display {
@@ -82,23 +90,19 @@ p {
     height: 75%;
     background: linear-gradient(0deg, rgba(88,239,236,1) 0%, rgba(124,202,213,1) 21%, rgba(160,166,190,1) 45%, rgba(180,146,177,1) 74%, rgba(232,92,144,1) 100%);
     box-shadow: 0 9px 0 0 #4EB6B8;
-    color: #595866;
 }
 
 .math {
     background: #E85C90;
     box-shadow: 0 9px 0 0 #79304B;
-    color: #79304B;
 }
 
 .num {
     background: #A4A2BB;
     box-shadow: 0 9px 0 0 #595866;
-    color: #595866;
 }
 
 .misc {
     background: #64E2E3;
     box-shadow: 0 9px 0 0 #4EB6B8;
-    color: #4EB6B8;
 }
